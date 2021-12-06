@@ -8,7 +8,7 @@ When making a queue, there are a few rules that must be followed. When adding an
 
 In a queue, one can only add to the back of a queue and can only remove from the front of the queue. This is to follow the rules set for queues. These rules allow us to remove an item from the front of a queue in O(1) time.
 
-#### Performance of a Queue
+### Performance of a Queue
 
 The performance for adding a value to the back of a queue and removing from the front of the queue is O(1). Classes used to make queues in Python automatically keep track of the size of the queue. This enables the size of a queue to be recalled in O(1) time. Typically, accessing an item in the middle of a queue is impossible, but in Python, it can be accomplished in O(n) time, although *accessing a queue item by index is extremely discouraged*. 
 
@@ -100,7 +100,7 @@ Barbara gets a limited item!
 Joe does not get a limited item...
 ~~~
 
-[Solution to Problem 1](Python Files/queue_1.py)
+[Solution to Problem 1](Python Files/1-queue/queue_1.py)
 
 ### Problem 2: Solving IT Tickets
 
@@ -108,7 +108,7 @@ Pretend that you are an IT Technician, and you are solving tickets in the order 
 
 Instead of making a custom ticket object, just use a string that contains what the title of the ticket might be. For example, one item in a queue might be "Flickering Monitor".
 
-[Click here for the solution to Problem 2](Python Files/queue_2.py)
+[Solution to Problem 2](Python Files/1-queue/queue_2.py)
 
 
 
