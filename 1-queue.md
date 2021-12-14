@@ -108,7 +108,7 @@ Pretend that you are an IT Technician, and you are solving tickets in the order 
 
 Instead of making a custom ticket object, just use a string that contains what the title of the ticket might be. For example, one item in a queue might be "Flickering Monitor".
 
-[Solution to Problem 2](Python Files/1-queue/queue_2.py)
+[Solution to Problem 2](Python%20Files/1-queue/queue_2.py)
 
 
 

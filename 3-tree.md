@@ -50,7 +50,7 @@ Using the Binary Search Tree, add usernames in an unsorted way, then use Python'
 
 *Note: there is no way implemented in the class to determine if the tree is balanced. The programmer will need to evaluate that for himself. Consult the solution for a comparison.*
 
-[Problem 1 Solution](Python Files/3-tree/tree_1_sol.py)
+[Problem 1 Solution](Python%20Files/3-tree/tree_1_sol.py)
 
 ## Problem 2: Time Comparison
 
@@ -71,4 +71,4 @@ After printing the time taken to perform the computations, one may use a graphin
 
 *Note: To find the time it takes to perform a computation, one may use the `time` library. `time.time()` will return the current time as a time object. To find computation time, one may subtract different time variables to find the time a computation took in seconds.*
 
-[Problem 2 Solution](Python Files/3-tree/tree_2_sol.py)
+[Problem 2 Solution](Python%20Files/3-tree/tree_2_sol.py)

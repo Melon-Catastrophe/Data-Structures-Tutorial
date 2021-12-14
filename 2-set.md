@@ -111,7 +111,7 @@ Finally, we can compare the lengths of the two variables and return the appropri
         return True
 ```
 
-[Solution to Problem 1](Python Files/2-set/set_1.py)
+[Solution to Problem 1](Python%20Files/2-set/set_1.py)
 
 ## Problem 2: Finding Values in Two Sets
 
@@ -145,7 +145,7 @@ set2 = {"kiwi", "banana", "orange", "melon", "grapefruit", "lemon"}
 print("Problem 1:", intersect(set1, set2))  # {"banana", "orange"}
 ```
 
-[Solution to Problem 2](Python Files/2-set/set_2.py)
+[Solution to Problem 2](Python%20Files/2-set/set_2.py)
 
 Click [Next](3-tree.md) to go to the tutorial on Trees.
 
