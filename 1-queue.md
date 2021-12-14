@@ -100,7 +100,7 @@ Barbara gets a limited item!
 Joe does not get a limited item...
 ~~~
 
-[Solution to Problem 1](Python Files/1-queue/queue_1.py)
+[Solution to Problem 1](Python%20Files/1-queue/queue_1.py)
 
 ### Problem 2: Solving IT Tickets
 
