@@ -60,7 +60,7 @@ Choose another data type besides trees. Generate a tree and the other data type 
 
 For example, if I chose sets, then I would make a function that makes a set with *x* number of random integers. I chose large enough *x* variables to give meaningful data. One may want to fill a table similar to the one below:
 
-|  *x*   | Execution Time (set) | Execution Time (Tree) |
+|  *x*   | Execution Time (Set) | Execution Time (Tree) |
 | :----: | :------------------: | :-------------------: |
 | 1,000  |          ?           |           ?           |
 | 5,000  |          ?           |           ?           |
