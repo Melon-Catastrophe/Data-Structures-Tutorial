@@ -67,7 +67,7 @@ For example, if I chose sets, then I would make a function that makes a set with
 | 10,000 |          ?           |           ?           |
 | 15,000 |          ?           |           ?           |
 
-After printing the time taken to perform the computations, one may use a graphing calculator to graph *x* on the x-axis and the Execution times on the y-axis. This will plot a graph revealing the type of efficiency the datatype has. You may use the [Desmos](desmos.com) website to graph this.
+After printing the time taken to perform the computations, one may use a graphing calculator to graph *x* on the x-axis and the Execution times on the y-axis. This will plot a graph revealing the type of efficiency the datatype has. You may use the [Desmos](https://www.desmos.com) website to graph this.
 
 *Note: To find the time it takes to perform a computation, one may use the `time` library. `time.time()` will return the current time as a time object. To find computation time, one may subtract different time variables to find the time a computation took in seconds.*
 
