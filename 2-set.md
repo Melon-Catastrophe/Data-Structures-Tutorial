@@ -8,7 +8,7 @@ A set is an unordered, unstructured list of elements that allows no duplicates. 
 
 This may be a little difficult to comprehend, so let's look at some diagrams representing sets. In the following images, we will be building a set starting with an array (or a *list*, as it is called in Python). We will imagine indexes to increase comprehension, but sets do not actually contain a real index.
 
-![Set 1-1](Picture%20Files\Set\set_1-1.png)
+![Set 1-1](Picture%20Files/Set/set_1-1.png)
 
 The above diagram represents a set with a size of 10. The above can be good for storing numbers from 0 to 9. Now let's fill it with a few values.
 
