@@ -4,7 +4,7 @@
 
 A *tree* is a collection of objects called *nodes* that point to the other objects, or nodes, of the tree. These nodes will usually point to more than one other node. See the following diagram below for clarification.
 
-![Tree 1-1](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Tree\tree_1-1 types.png)
+![Tree 1-1](Picture%20Files/Tree/tree_1-1%20types.png)
 
 ![Tree 1-2](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Tree\tree_1-2.png)
 
@@ -12,7 +12,7 @@ As you can see from the diagram above, trees can take on many different sizes. L
 
 A node that points to other nodes is a *parent* node. The nodes that a parent node points to is called a *child* node. The beginning of a tree is the *root* node, and the end nodes, or the nodes that do not point to any other nodes, are *leaf* nodes. See the diagram below for more clarification.
 
-![Tree 1-1](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Tree\tree_1-1.png)
+![Tree 1-1](Picture%20Files/Tree/tree_1-1.png)
 
 ## Binary Search Trees
 
@@ -22,13 +22,13 @@ Each node in a Binary Search Tree can point to a maximum of two other nodes **an
 
 For example, say we have a tree containing only a root node with a value of 5. If we would like to insert the value 2, it would be inserted in the left leaf, and the value 7 would be inserted into the right leaf.
 
-![Tree 2-1](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Tree\tree_2-1.png)
+![Tree 2-1](Picture%20Files/Tree/tree_2-1.png)
 
 ### Balanced and Unbalanced Binary Search Trees
 
 A Binary Search Tree can be unbalanced. If parent nodes only point to leaves to their right, then we do not get any performance increase over a dynamic array. Compare the two visuals below. 
 
-![Image of Balanced Tree](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Tree\tree_2-3.png)
+![Image of Balanced Tree](Picture%20Files/Tree/tree_2-3.png)
 
 Can you guess which one has better performance?
 
@@ -72,3 +72,4 @@ After printing the time taken to perform the computations, one may use a graphin
 *Note: To find the time it takes to perform a computation, one may use the `time` library. `time.time()` will return the current time as a time object. To find computation time, one may subtract different time variables to find the time a computation took in seconds.*
 
 [Problem 2 Solution](Python%20Files/3-tree/tree_2_sol.py)
+

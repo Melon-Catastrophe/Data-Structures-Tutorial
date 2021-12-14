@@ -12,17 +12,17 @@ This may be a little difficult to comprehend, so let's look at some diagrams rep
 
 The above diagram represents a set with a size of 10. The above can be good for storing numbers from 0 to 9. Now let's fill it with a few values.
 
-![Set 1-2](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Set\set_1-2.png)
+![Set 1-2](Picture%20Files/Set/set_1-2.png)
 
 In the diagram above, the rule for determining what index to put something in is dependent upon the value of the number that we are storing. This can be described as index(n) = n. **If we tried to store another 2 in, then it wouldn't be allowed.**
 
 Naturally, we would want to store numbers in ranges other than 0 to 9, so let's change the rule to index(n) = n % 10.
 
-![Set 1-3](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Set\set_1-3.png)
+![Set 1-3](Picture%20Files/Set/set_1-3.png)
 
 So far, not much has changed. All the elements are stored in the same manner. However, now we can store more number than integers 0 to 9. Let's add a couple.
 
-![Set 1-4](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Set\set_1-4.png)
+![Set 1-4](Picture%20Files/Set/set_1-4.png)
 
 The result of the calculation 1234 % 10 is equal to 4, resulting in storing the number 1234 into the 4 spot. We can now store numbers that are quite large. Notice that they way a set stores these numbers naturally does not allow for a duplicate. If we try to store a duplicate 2, we cannot, since a 2 already occupies this space. 
 
@@ -30,7 +30,7 @@ You may notice a dilemma in this design, though. Only 10 numbers can be stored i
 
 Chaining is a way to store multiple values in a similar space so that you can store different values that would occupy the same index. As long as the numbers do not match, you can store a number that would normally occupy the same space as another. See the diagram below to understand how it works.
 
-![Set 1-5](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Set\set_1-5.png)
+![Set 1-5](Picture%20Files/Set/set_1-5.png)
 
 With chaining, we can store more variables than we normally could. One disadvantage of chaining in sets is that it can get unbalanced. If one index is chained a substantial amount more than others, then the set is unbalanced and can ruin our O(1) performance. When using the set data type, it is typically optimized to reduce this issue.
 
@@ -40,7 +40,7 @@ We can also store non-integer data types with a technique called *hashing*. Hash
 
 In Python, we are able to hash using the `hash()` method. We can also define a hash for objects of our own classes by using `__hash__()` to hash member data of the object, but that is outside the scope of this tutorial. 
 
-![Set 2-1](C:\Users\k4nme\OneDrive\College\Classes\Fall 2021\CSE 212 Programming with Data Structures\Final Project\Data-Structures-Tutorial\Picture Files\Set\set_2-1.png)
+![Set 2-1](Picture%20Files/Set/set_2-1.png)
 
 Assuming the object represented above is an object that we define the hash for, it can be hashed and stored into a set.
 
