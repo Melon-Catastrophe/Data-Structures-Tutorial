@@ -29,7 +29,6 @@ class BST:
             # Do nothing; we do not want duplicates.
             pass
     
-
     '''
     "__contains__()" is used in keyword 'in'. Example: if 5 in bst: ...
     '''
@@ -65,6 +64,7 @@ class BST:
         
     def __reversed__(self):
         yield from self._traverse_backward(self.root)  # Start at the root
+
     def _traverse_backward(self, node):
         # If node is full...
         if node is not None:
@@ -77,9 +77,17 @@ class BST:
             # This algorithm presents the right-most branch, then proceeds to left branches.
 
 
-bt = BST()
-bt.insert(1)
-bt.insert(7)
-bt.insert(3)
-for i in bt:
+print("\n\n\n")
+tree = BST()
+tree.insert("mmellor27")
+tree.insert("abanana12")
+tree.insert("qbear69")
+tree.insert("aaplee")
+tree.insert("greatdane20")
+tree.insert("polarpop7")
+tree.insert("zebra72")
+
+for i in tree:
     print(i)
+
+# When printing the names above, it prints in a sorted, alphabetical order!

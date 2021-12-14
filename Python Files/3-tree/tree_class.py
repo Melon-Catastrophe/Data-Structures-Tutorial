@@ -75,11 +75,3 @@ class BST:
             # then yield from the left tree.
 
             # This algorithm presents the right-most branch, then proceeds to left branches.
-
-
-bt = BST()
-bt.insert(1)
-bt.insert(7)
-bt.insert(3)
-for i in bt:
-    print(i)
